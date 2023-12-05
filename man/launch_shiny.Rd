@@ -11,5 +11,5 @@ launch_shiny(path = "../ctrialsgovdb")
 }
 \description{
 This function launch the shiny app, the function requires that the duckdb ctgov database is localy saved,
-this can be done through \link[bis620.2023]{download_clinicaltrials()}.
+this can be done through \code{\link{download_clinicaltrials}}.
 }

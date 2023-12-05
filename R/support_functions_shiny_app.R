@@ -384,7 +384,7 @@ plot_world_map <- function(studies_filt, countries_duckdb, world_map){
   title_world_map <- paste('World map. Trials with missing data:', data_missing_count)
   ggplot(countries_counts) +
     geom_map(
-      dat = world_map, map = world_map, aes(map_id = region),
+      data = world_map, map = world_map, aes(map_id = region),
       fill = "white", color = "#7f7f7f", size = 0.25
     ) +
     geom_map(map = world_map, aes(map_id = name, fill = log(n, 10)), linewidth = 0.25) +

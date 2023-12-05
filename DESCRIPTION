@@ -20,10 +20,10 @@ Imports:
   shiny,
   devtools,
   tidyselect,
-  tibble,
-  ctrialsgov
+  tibble
 Suggests: 
     knitr,
+    ctrialsgov,
     rmarkdown,
     lubridate,
     testthat (>= 3.0.0),

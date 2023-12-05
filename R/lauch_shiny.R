@@ -1,7 +1,7 @@
 #' @title Launch shiny app
 #' @description
 #' This function launch the shiny app, the function requires that the duckdb ctgov database is localy saved,
-#' this can be done through \link[bis620.2023]{download_clinicaltrials()}.
+#' this can be done through \code{\link{download_clinicaltrials}}.
 #' @param path (string) that defines where the databaset is stored, default ../ctrialsgovdb
 #' @importFrom shiny shinyApp
 #' @importFrom duckdb dbConnect duckdb dbListTables

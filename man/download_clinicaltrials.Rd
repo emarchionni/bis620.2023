@@ -4,18 +4,15 @@
 \alias{download_clinicaltrials}
 \title{Download Clinical trials database}
 \usage{
-download_clinicaltrials(path = "../ctrialsgovdb", install_ctrialsgov = T)
+download_clinicaltrials(path = "../ctrialsgovdb")
 }
 \arguments{
 \item{path}{(string) that defines where the databaset has to be downloaded, default ../ctrialsgovdb}
-
-\item{install_ctrialsgov}{(boolean) boolean value for installing ctrialsgov library from github,
-set to F if already installed. If already installed and set to T, force re-installation.}
 }
 \description{
 This function install first the library ctrialsgov that can be found on github at the link presagia-analytics/ctrialsgov and then
 download the duckdb database ctgov in a folder called ctrialsgovdb in ../current_directory.
 This database is needed to run the shiny app
-Disclaimer: ctrialsgov package is not on Cran and the author of this package cannot be considered reponsible for its content
-Warning: ctgov is heavy
+Disclaimer: ctrialsgov package is not on Cran and the author of this package cannot be considered responsible for its content
+Warning: ctgov databse is heavy
 }
