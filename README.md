@@ -1,15 +1,34 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# bis620.2023
+## bis620.2023
+
+``` r
+# [![R-CMD-check](https://github.com/emarchionni/bis620.2023/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/emarchionni/bis620.2023/actions/workflows/R-CMD-check.yaml)
+```
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/emarchionni/bis620.2023/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/emarchionni/bis620.2023/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/kaneplusplus/bis620.2023/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kaneplusplus/bis620.2023/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/emarchionni/bis620.2023/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/emarchionni/bis620.2023/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
-The goal of bis620.2023 is to …
+This is a package that integrates a shiny app for data visualization for
+the ctrialsgov database that can be found at the
+[link](www.github.com/presagia-analytics/ctrialsgov). This database
+includes the history, along with extensive other variables, of the
+clinical trials conducted worldwide for any type drug since 1995.
+
+The database is a duckDB database and the package requires its local
+storage. A function to set the infrastructure and download the database
+is included in the package.
+
+Along with these main features, the package includes a database on
+accelerometry data and some function for its visualization in time and
+frequency domain.
+
+[Here](https://github.com/emarchionni/bis620.2023/actions/workflows/test-coverage.yaml)
+is a link to the test coverage.
 
 ## Installation
 
@@ -18,10 +37,17 @@ You can install the development version of bis620.2023 from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("kaneplusplus/bis620.2023")
+devtools::install_github("emarchionni/bis620.2023")
 ```
 
-## Example
+<!-- ## Run the shiny app -->
+<!-- ```{r} -->
+<!-- library(bis620.2023) -->
+<!-- download_clinicaltrials() -->
+<!-- launch_shiny() -->
+<!-- ``` -->
+
+## Example on accel data
 
 This is a basic example which shows you how to solve a common problem:
 
