@@ -15,16 +15,13 @@ knitr::opts_chunk$set(
 
 ## bis620.2023
 
-```{r}
-# [![R-CMD-check](https://github.com/emarchionni/bis620.2023/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/emarchionni/bis620.2023/actions/workflows/R-CMD-check.yaml)
-```
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/kaneplusplus/bis620.2023/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kaneplusplus/bis620.2023/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/emarchionni/bis620.2023/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/emarchionni/bis620.2023/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
-This is a package that integrates a shiny app for data visualization for the ctrialsgov database that can be found at the [link](www.github.com/presagia-analytics/ctrialsgov). This database includes the history, along with extensive other variables, of the clinical trials conducted worldwide for any type drug since 1995. 
+This is a package that integrates a shiny app for data visualization for the ctrialsgov database that can be found at the [link](https://github.com/presagia-analytics/ctrialsgov). This database includes the history, along with extensive other variables, of the clinical trials conducted worldwide for any type drug since 1995. 
 
 The database is a duckDB database and the package requires its local storage. A function to set the infrastructure and download the database is included in the package.
 

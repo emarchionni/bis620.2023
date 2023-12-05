@@ -3,10 +3,6 @@
 
 ## bis620.2023
 
-``` r
-# [![R-CMD-check](https://github.com/emarchionni/bis620.2023/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/emarchionni/bis620.2023/actions/workflows/R-CMD-check.yaml)
-```
-
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/kaneplusplus/bis620.2023/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kaneplusplus/bis620.2023/actions/workflows/R-CMD-check.yaml)
@@ -15,7 +11,7 @@
 
 This is a package that integrates a shiny app for data visualization for
 the ctrialsgov database that can be found at the
-[link](www.github.com/presagia-analytics/ctrialsgov). This database
+[link](https://github.com/presagia-analytics/ctrialsgov). This database
 includes the history, along with extensive other variables, of the
 clinical trials conducted worldwide for any type drug since 1995.
 
